@@ -5079,7 +5079,7 @@ export interface UserRegistration {
   insertInstant?: number;
   lastLoginInstant?: number;
   preferredLanguages?: Array<string>;
-  roles?: Set<string>;
+  roles?: Array<string>;
   timezone?: string;
   tokens?: Map<string, string>;
   userId?: string;
